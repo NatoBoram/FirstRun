@@ -2,6 +2,7 @@
 When first booting into Windows 10, there are a few things that you might want to do.
 
 ## First Run
+* Download and run [FirstRun](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/FirstRun.bat)
 
 ### How to install [PSWindowsUpdate](https://www.powershellgallery.com/packages/PSWindowsUpdate/)
 1. Open Windows PowerShell as Administrator
