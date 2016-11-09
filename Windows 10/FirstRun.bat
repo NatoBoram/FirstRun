@@ -15,15 +15,19 @@ for /f "tokens=1,2,3*" %%i in ('netsh int show interface') do (
 	)
 )
 
+echo IPConfig
 ipconfig /release
 ipconfig /flushdns
 ipconfig /renew
 
+echo Time
 net start w32time
 w32tm /resync
 
+echo Windows 10 Upgrade
 mkdir C:\Windows10Upgrade\
 del C:\Windows10Upgrade\Windows10Upgrade.exe
 (New-Object System.Net.WebClient).DownloadFile("http://go.microsoft.com/fwlink/?LinkID=799445", "C:\Windows10Upgrade\Windows10Upgrade.exe")
 wuauclt /resetauthorization
-start C:\Windows10Upgrade\Windows10Upgrade.exe
+start /wait C:\Windows10Upgrade\Windows10Upgrade.exe
+PowerShell Get-WUInstall -MicrosoftUpdate -AcceptAll -AutoReboot -Verbose
