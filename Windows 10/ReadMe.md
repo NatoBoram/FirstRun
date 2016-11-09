@@ -20,3 +20,5 @@ When first booting into Windows 10, there are a few things that you might want t
 5. DWORD (32 bits)
 6. `RealTimeIsUniversal`
 7. `1`
+
+## Future References
