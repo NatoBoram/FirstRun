@@ -24,10 +24,14 @@ echo Time
 net start w32time
 w32tm /resync
 
+PowerShell (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat", "%UserProfile%\DesktopInstall.bat")
+
 echo Windows 10 Upgrade
 mkdir C:\Windows10Upgrade\
 del C:\Windows10Upgrade\Windows10Upgrade.exe
-(New-Object System.Net.WebClient).DownloadFile("http://go.microsoft.com/fwlink/?LinkID=799445", "C:\Windows10Upgrade\Windows10Upgrade.exe")
+PowerShell (New-Object System.Net.WebClient).DownloadFile("http://go.microsoft.com/fwlink/?LinkID=799445", "C:\Windows10Upgrade\Windows10Upgrade.exe")
 wuauclt /resetauthorization
 start /wait C:\Windows10Upgrade\Windows10Upgrade.exe
 PowerShell Get-WUInstall -MicrosoftUpdate -AcceptAll -AutoReboot -Verbose
+shutdown /r
+
