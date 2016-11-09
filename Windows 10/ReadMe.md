@@ -15,8 +15,7 @@ When first booting into Windows 10, there are a few things that you might want t
 1. [Windows] + R
 2. `regedit`
 3. `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
-4. New, DWORD (32-bit), `RealTimeIsUniversal`
-5. `1`
-
-## Attributions
-[Free Software Foundation](http://www.gnu.org/licenses/gpl) | [Git for Windows](https://git-for-windows.github.io/) | [Igor Pavlov](http://7-zip.org/) | [Michal Gajda](https://www.powershellgallery.com/packages/PSWindowsUpdate/) | [Oracle](http://www.java.com) | [Semantic Versionning](http://semver.org/)
+4. New
+5. DWORD (32 bits)
+6. `RealTimeIsUniversal`
+7. `1`
