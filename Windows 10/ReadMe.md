@@ -1,5 +1,5 @@
 # Windows 10
-Here are some things you might 
+Here are some things you might need.
 
 ### How to install [Java](http://www.java.com/en/download/manual.jsp)
 This guide shows how to install [Java](http://www.java.com/en/download/manual.jsp) in order to use it quickly. If you didn't use these steps during your installation, it is recommended that you reinstall it because some of these steps are mendatory for this auto updater. To begin, download [Windows Offline](http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207773) and [Windows Offline (64-bit)](http://javadl.oracle.com/webapps/download/AutoDL?BundleId=207775).
