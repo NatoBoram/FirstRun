@@ -31,4 +31,4 @@ SteamOS will not work properly out of the box. There are a few things you need t
 3. `sudo dpkg -i *.deb && sudo apt-get install -f && sudo apt-get autoremove`
 
 ### Change Permission
-1. sudo chown steam:steam /home/steam/
+1. `sudo chown steam:steam /home/steam/`
