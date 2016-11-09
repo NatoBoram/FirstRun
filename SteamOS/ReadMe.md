@@ -20,8 +20,8 @@ SteamOS will not work properly out of the box. There are a few things you need t
 
 ### Terminal
 1. `cd ~/Desktop/`
-2. `wget https://raw.githubusercontent.com/NatoBoram/FirstRun/master/SteamOS/FirstRun`
-3. `FirstRun`
+2. `wget https://raw.githubusercontent.com/NatoBoram/FirstRun/master/SteamOS/FirstRun.sh`
+3. `FirstRun.sh`
 
 ## Future References
 
