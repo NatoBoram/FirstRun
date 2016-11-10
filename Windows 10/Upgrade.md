@@ -1,10 +1,5 @@
 # How to install Windows 10 using an USB Key
-1. ![1](1)
-2. ![2](2)
-3. ![3](3)
-4. ![4](4)
-5. ![5](5)
-6. ![6](6)
-7. ![7](7)
-8. ![8](8)
-9. ![9](9)
+## Windows 10 Setup
+![1](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Upgrade/1.PNG)
+![2](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Upgrade/2.PNG)
+![3](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Upgrade/3.PNG)
