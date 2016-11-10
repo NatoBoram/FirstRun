@@ -25,7 +25,4 @@ When first booting into Windows 10, there are a few things that you might want t
 
 ## Future References
 
-### Installing Windows 10
-1. Download [MediaCreationTool](http://go.microsoft.com/fwlink/?LinkId=691209)
-
-### Reinstalling Windows 10
+[Upgrade](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Upgrade/ReadMe.md) | [DVD](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/DVD/ReadMe.md) | [USB](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/USB/ReadMe.md) | [Update](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Update/ReadMe.md) | [Refresh](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Refresh/ReadMe.md)
