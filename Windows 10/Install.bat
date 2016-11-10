@@ -64,3 +64,5 @@ start "Rufus" "https://rufus.akeo.ie/"
 start "VirtualBox" "https://www.virtualbox.org/"
 start "Visual Studio" "https://www.visualstudio.com/"
 pause
+
+exit
