@@ -24,11 +24,10 @@ echo Time
 net start w32time
 w32tm /resync
 
-PowerShell (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat", "%UserProfile%\Install.bat")
-echo Download every programs that you need. You will be able to install them after the computer restarts.
-ping 127.0.0.1 > nul
-start /wait %UserProfile%\Install.bat
-del %UserProfile%\Install.bat
+echo Download Programs
+PowerShell (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat", "C:\Install.bat")
+start /wait C:\Install.bat
+del C:\Install.bat
 
 echo Windows 10 Upgrade
 mkdir C:\Windows10Upgrade\
