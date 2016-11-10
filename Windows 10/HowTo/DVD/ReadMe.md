@@ -1,10 +1,4 @@
-# How to install Windows 10 using an USB Key
-1. ![1](1)
-2. ![2](2)
-3. ![3](3)
-4. ![4](4)
-5. ![5](5)
-6. ![6](6)
-7. ![7](7)
-8. ![8](8)
-9. ![9](9)
+# How to install Windows 10 using a DVD
+1. ![1](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/DVD/1.PNG)
+2. ![2](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/DVD/2.PNG)
+3. ![3](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/DVD/3.PNG)
