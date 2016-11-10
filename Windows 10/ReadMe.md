@@ -1,10 +1,9 @@
 # Windows 10
 When first booting into Windows 10, there are a few things that you might want to do.
 
-## First Run
-* Download and run [FirstRun](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/FirstRun.bat)
+## Prerequisites
 
-### How to install [PSWindowsUpdate](https://www.powershellgallery.com/packages/PSWindowsUpdate/)
+### [PSWindowsUpdate](https://www.powershellgallery.com/packages/PSWindowsUpdate/)
 1. Open Windows PowerShell as Administrator
 2. `Set-ExecutionPolicy Unrestricted`
 3. `Install-PackageProvider -Name NuGet -Force`
@@ -12,7 +11,7 @@ When first booting into Windows 10, there are a few things that you might want t
 5. `Add-WUServiceManager -ServiceID 7971f918-a847-4430-9279-4a52d1efe18d`
 6. `Get-WUInstall -MicrosoftUpdate -AcceptAll -AutoReboot -Verbose`
 
-### How to fix GMT
+### GMT
 1. [Windows] + R
 2. `regedit`
 3. `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
@@ -21,4 +20,12 @@ When first booting into Windows 10, there are a few things that you might want t
 6. `RealTimeIsUniversal`
 7. `1`
 
+## First Run
+* Download and run [FirstRun](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/FirstRun.bat)
+
 ## Future References
+
+### Installing Windows 10
+1. Download [MediaCreationTool](http://go.microsoft.com/fwlink/?LinkId=691209)
+
+### Reinstalling Windows 10
