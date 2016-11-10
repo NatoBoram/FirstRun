@@ -25,14 +25,14 @@ net start w32time
 w32tm /resync
 
 echo Download Programs
-PowerShell (New-Object System.Net.WebClient).DownloadFile("https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat", "C:\Install.bat")
+PowerShell Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat -Destination C:\Install.bat
 start /wait C:\Install.bat
 del C:\Install.bat
 
 echo Windows 10 Upgrade
 mkdir C:\Windows10Upgrade\
 del C:\Windows10Upgrade\Windows10Upgrade.exe
-PowerShell (New-Object System.Net.WebClient).DownloadFile("http://go.microsoft.com/fwlink/?LinkID=799445", "C:\Windows10Upgrade\Windows10Upgrade.exe")
+PowerShell Start-BitsTransfer -Source http://go.microsoft.com/fwlink/?LinkID=799445 -Destination C:\Windows10Upgrade\Windows10Upgrade.exe
 wuauclt /resetauthorization
 start /wait C:\Windows10Upgrade\Windows10Upgrade.exe
 
