@@ -10,8 +10,10 @@ The fear of change is what most people experience when they think about Windows 
 3. [Virtual Desktops](https://en.wikipedia.org/wiki/Task_View)
 4. [DirectX 12](https://en.wikipedia.org/wiki/DirectX#DirectX_12)
 5. [Windows Insider](https://en.wikipedia.org/wiki/Windows_Insider)
-6. Background Updates
+6. [Background Updates](https://en.wikipedia.org/wiki/Windows_Update#Windows_10)
 7. Faster Boot Time
+8. [Play Xbox games on Windows 10](https://en.wikipedia.org/wiki/Windows_10#Multimedia_and_gaming)
+9. [It's free!](https://en.wikipedia.org/wiki/Windows_10#Free_upgrade_offer)
 
 To begin your installation, please download the [Media Creation Tool](https://www.microsoft.com/en-ca/software-download/windows10/).
 
