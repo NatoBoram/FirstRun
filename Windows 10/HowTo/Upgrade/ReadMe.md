@@ -11,9 +11,11 @@ The fear of change is what most people experience when they think about Windows 
 4. [DirectX 12](https://en.wikipedia.org/wiki/DirectX#DirectX_12)
 5. [Windows Insider](https://en.wikipedia.org/wiki/Windows_Insider)
 6. [Background Updates](https://en.wikipedia.org/wiki/Windows_Update#Windows_10)
-7. Faster Boot Time
-8. [Play Xbox games on Windows 10](https://en.wikipedia.org/wiki/Windows_10#Multimedia_and_gaming)
-9. [It's free!](https://en.wikipedia.org/wiki/Windows_10#Free_upgrade_offer)
+7. [PowerShell 5.1](https://en.wikipedia.org/wiki/PowerShell#PowerShell_5.0)
+8. [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-ca/commandline/wsl/about)
+9. Faster Boot Time
+10. [Play Xbox games on Windows 10](https://en.wikipedia.org/wiki/Windows_10#Multimedia_and_gaming)
+11. [It's free!](https://en.wikipedia.org/wiki/Windows_10#Free_upgrade_offer)
 
 To begin your installation, please download the [Media Creation Tool](https://www.microsoft.com/en-ca/software-download/windows10/).
 
