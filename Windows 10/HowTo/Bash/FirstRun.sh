@@ -16,7 +16,7 @@ sudo dpkg --configure -a
 lsb_release -a
 
 # Software
-sudo aptitude install ubuntu-desktop install unity install compiz-core compizconfig-settings-manager
+sudo aptitude install ubuntu-desktop unity compizconfig-settings-manager compiz-core
 
 # In case something broke
 sudo dpkg-reconfigure locales
