@@ -12,7 +12,7 @@ This is fucking aweswome.
 0. `lxrun /install /y`
 
 ## First Run
-Open [this](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Bash/FirstRun.sh) with Bash
+Open [this](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Bash/FirstRun.sh) with Bash.
 
 ## This will probably break everything
 0. [`curl https://repogen.simplylinux.ch/txt/yakkety/sources_861438f9184a3ddfcaf8ec804ede772be27e2726.txt | sudo tee /etc/apt/sources.list`](https://repogen.simplylinux.ch/)
