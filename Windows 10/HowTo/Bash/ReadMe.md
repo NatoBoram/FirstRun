@@ -22,8 +22,12 @@ This is fucking aweswome.
 0. `sudo aptitude install unity`
 0. `sudo aptitude install compiz-core`
 0. `sudo aptitude install compizconfig-settings-manager`
-0. sudo ccsm
-0. sudo compiz
+0. `sudo `[`ccsm`](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Bash/ReadMe.md#ccsm)
+0. `sudo compiz`
+0. sudo dpkg-reconfigure locales
+
+## Run this often
+sudo chown -Rv $USER:$USER ~
 
 ### CCSM
 
