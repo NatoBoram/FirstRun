@@ -25,6 +25,7 @@ sudo aptitude install compizconfig-settings-manager
 sudo dpkg-reconfigure locales
 sudo chown -Rv $USER:$USER ~
 
+# CCSM
 echo GENERAL
 echo Commands
 echo Composite
