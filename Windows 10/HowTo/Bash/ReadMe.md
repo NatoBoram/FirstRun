@@ -44,6 +44,7 @@ This is fucking aweswome.
 
 ## APT-GET
 0. `sudo aptitude install gnome-terminal`
+0. `sudo aptitude install gedit`
 
 ### CCSM
 
