@@ -40,7 +40,7 @@ This is fucking aweswome.
 0. `sudo aptitude install compiz-core`
 0. `sudo aptitude install compizconfig-settings-manager`
 0. `sudo chown -Rv $USER:$USER ~`
-0. `sudo `[`ccsm`](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Bash/ReadMe.md#ccsm)
+0. [`sudo ccsm`](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Bash/ReadMe.md#ccsm)
 0. `sudo compiz`
 
 ### CCSM
