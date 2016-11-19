@@ -14,15 +14,16 @@ This is fucking aweswome.
 ## First Run
 0. `echo "export DISPLAY=:0.0" >> ~/.bashrc`
 0. `sudo sed -i 's/<listen>.*<\/listen>/<listen>tcp:host=localhost,port=0<\/listen>/' /etc/dbus-1/session.conf`
-0. `sudo dpkg-reconfigure locales`
 0. `sudo aptitude update`
 0. `sudo aptitude full-upgrade`
+0. `sudo dpkg-reconfigure locales`
 0. `sudo chown -Rv $USER:$USER ~`
 
 ## Upgrade
 0. `lsb_release -a`
 0. `sudo aptitude install update-manager-core`
 0. `sudo do-release-upgrade`
+0. `sudo dpkg-reconfigure locales`
 0. `lsb_release -a`
 0. `sudo reboot`
 
