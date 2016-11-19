@@ -23,7 +23,6 @@ This is fucking aweswome.
 0. `lsb_release -a`
 0. `sudo aptitude install update-manager-core`
 0. `sudo do-release-upgrade`
-0. `sudo dpkg-reconfigure locales`
 0. `lsb_release -a`
 0. `sudo reboot`
 
