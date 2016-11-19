@@ -49,4 +49,4 @@ sudo chown -R steam:steam /home/steam/
 # Reboot
 sudo aptitude upgrade
 sudo update-grub
-reboot
+sudo reboot
