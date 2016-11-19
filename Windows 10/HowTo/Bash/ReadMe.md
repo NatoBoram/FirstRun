@@ -24,12 +24,13 @@ This is fucking aweswome.
 0. `sudo aptitude install update-manager-core`
 0. `sudo do-release-upgrade`
 0. `lsb_release -a`
-0. Please reboot the computer.
+0. `sudo reboot`
 
 ## Repositories
 0. [`curl https://repogen.simplylinux.ch/txt/yakkety/sources_861438f9184a3ddfcaf8ec804ede772be27e2726.txt | sudo tee /etc/apt/sources.list`](https://repogen.simplylinux.ch/)
 0. `sudo aptitude update`
 0. `sudo aptitude full-upgrade`
+0. `sudo reboot`
 
 ## Unity
 0. `sudo aptitude install ubuntu-desktop`
