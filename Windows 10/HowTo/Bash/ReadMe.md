@@ -27,7 +27,7 @@ This is fucking aweswome.
 0. `lsb_release -a`
 0. `sudo reboot`
 
-## Repositories
+## Repositories - This will probably break everything
 0. [`curl https://repogen.simplylinux.ch/txt/yakkety/sources_861438f9184a3ddfcaf8ec804ede772be27e2726.txt | sudo tee /etc/apt/sources.list`](https://repogen.simplylinux.ch/)
 0. `sudo aptitude update`
 0. `sudo aptitude full-upgrade`
