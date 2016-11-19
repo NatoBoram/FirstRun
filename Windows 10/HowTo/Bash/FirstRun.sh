@@ -33,6 +33,7 @@ echo Copy to texture
 echo OpenGL
 
 echo DESKTOP
+echo Expo
 echo Ubuntu Unity Plugin
 
 echo IMAGE LOADING
