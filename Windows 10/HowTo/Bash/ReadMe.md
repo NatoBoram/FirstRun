@@ -24,6 +24,8 @@ This is fucking aweswome.
 0. `sudo aptitude update`
 0. `sudo aptitude full-upgrade`
 0. `sudo reboot`
+0. `sudo aptitude install update-manager-core`
+0. `sudo do-release-upgrade`
 
 ## Unity
 0. `sudo aptitude install ubuntu-desktop`
