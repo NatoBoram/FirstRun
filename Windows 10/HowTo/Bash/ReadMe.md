@@ -22,7 +22,7 @@ This is fucking aweswome.
 ## Upgrade
 0. `lsb_release -a`
 0. `sudo aptitude install update-manager-core`
-0. `sudo do-release-upgrade`
+0. `sudo do-release-upgrade -d`
 0. `sudo dpkg --configure -a`
 0. `lsb_release -a`
 0. `sudo shutdown -r now`
