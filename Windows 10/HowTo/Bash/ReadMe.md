@@ -21,10 +21,9 @@ This is fucking aweswome.
 
 ## Upgrade
 0. `lsb_release -a`
-0. `sudo aptitude update`
-0. `sudo aptitude full-upgrade`
 0. `sudo aptitude install update-manager-core`
 0. `sudo do-release-upgrade`
+0. `sudo dpkg --configure -a`
 0. `lsb_release -a`
 0. `sudo shutdown -r now`
 
@@ -42,6 +41,9 @@ This is fucking aweswome.
 0. `sudo chown -Rv $USER:$USER ~`
 0. [`sudo ccsm`](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Bash/ReadMe.md#ccsm)
 0. `sudo compiz`
+
+## APT-GET
+0. `sudo aptitude install gnome-terminal`
 
 ### CCSM
 
