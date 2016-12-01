@@ -9,7 +9,7 @@ This is fucking aweswome.
 
 ## Reinstall
 0. `lxrun /uninstall /y /full`
-0. `lxrun /install /y`
+0. `lxrun /install`
 
 ## First Run
 Open [this](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Bash/FirstRun.sh) with Bash.
