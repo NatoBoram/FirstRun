@@ -14,7 +14,8 @@ This is fucking aweswome.
 ## First Run
 Open [this](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/Bash/FirstRun.sh) with Bash.
 
-## [Personalization](http://design.ubuntu.com/brand/colour-palette)
+## Personalization
+Using Ubuntu's [colour palette](http://design.ubuntu.com/brand/colour-palette)
 * Screen Text : 238, 238, 238
 * Screen Background : 44, 0, 30
 * Popup Text : 44, 0, 30
