@@ -2,6 +2,7 @@
 
 # Graphical User Interface
 echo "export DISPLAY=:0.0" >> ~/.bashrc
+sudo touch /etc/dbus-1/session.conf
 sudo sed -i 's/<listen>.*<\/listen>/<listen>tcp:host=localhost,port=0<\/listen>/' /etc/dbus-1/session.conf
 
 # Update
@@ -10,13 +11,12 @@ sudo aptitude full-upgrade
 
 # Upgrade
 lsb_release -a
-sudo aptitude install update-manager-core
 sudo do-release-upgrade
 sudo dpkg --configure -a
 lsb_release -a
 
 # Software
-sudo aptitude install ubuntu-desktop unity compizconfig-settings-manager compiz-core default-jre
+sudo aptitude install ubuntu-desktop unity compizconfig-settings-manager compiz-core default-jre freeglut3
 
 # In case something broke
 sudo dpkg-reconfigure locales
