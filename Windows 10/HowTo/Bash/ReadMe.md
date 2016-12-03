@@ -25,7 +25,4 @@ Using Ubuntu's [colour palette](http://design.ubuntu.com/brand/colour-palette)
 * Opacity : 95%
 
 ## This will probably break everything
-0. [`curl https://repogen.simplylinux.ch/txt/yakkety/sources_861438f9184a3ddfcaf8ec804ede772be27e2726.txt | sudo tee /etc/apt/sources.list`](https://repogen.simplylinux.ch/)
-0. `sudo aptitude update`
-0. `sudo aptitude full-upgrade`
-0. `sudo shutdown -r now`
+[Ubuntu Sources List Generator](https://repogen.simplylinux.ch/)
