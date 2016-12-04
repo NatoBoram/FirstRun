@@ -16,4 +16,4 @@
 0. ADB Sideload
 0. `adb sideload cm.zip`
 0. `adb sideload open_gapps.zip`
-0. Reboot
+0. Reboot System
