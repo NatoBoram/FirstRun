@@ -13,7 +13,7 @@
 0. Recovery mode
 0. Wipe
 0. Advanced
-0. ADB Sideload
+0. ADB Sideload | Wipe Dalvik Cache | Wipe Cache
 0. `adb sideload cm.zip`
 0. `adb sideload open_gapps.zip`
 0. Reboot System
