@@ -30,4 +30,7 @@
 0. Wipe Dalvik Cache
 0. Wipe Cache
 0. `adb sideload open_gapps.zip`
-0. Reboot System
+0. Reboot
+0. Bootloader
+0. `fastboot flash recovery cm.img`
+0. Start
