@@ -16,10 +16,13 @@
 0. `fastboot flashing unlock` or `fastboot oem unlock`
 0. `fastboot flash recovery cm.img`
 0. Recovery mode
-0. Apply Update
-0. ADB Sideload
+0. Factory reset
+0. Full factory reset
+0. Apply update
+0. Apply from ADB
 0. `adb sideload cm.zip`
-0. Recovery mode
+0. Advanced
+0. Reboot to bootloader
 0. `fastboot flash recovery twrp.img`
 0. Recovery mode
 0. Advanced
