@@ -49,4 +49,5 @@ echo Snapping Windows
 
 # Unity
 sudo ccsm
+sudo ccsm
 sudo compiz
