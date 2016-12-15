@@ -17,7 +17,7 @@ sudo dpkg --configure -a
 lsb_release -a
 
 # Software
-sudo aptitude install ubuntu-desktop unity compizconfig-settings-manager compiz-core default-jre freeglut3 git
+sudo aptitude install ubuntu-desktop unity compizconfig-settings-manager compiz-core openjdk-8-jre openjdk-8-jdk freeglut3 git
 
 # In case something broke
 sudo dpkg-reconfigure locales
