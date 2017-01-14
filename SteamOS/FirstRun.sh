@@ -34,10 +34,7 @@ echo "" | sudo tee -a /etc/apt/preferences
 sudo aptitude update
 
 # APT-GET
-sudo aptitude install default-jre
-sudo aptitude install gedit
-sudo aptitude install vlc
-sudo aptitude install libreoffice
+sudo aptitude install default-jre gedit vlc libreoffice krita gimp
 
 # Install References
 sudo apt-get install -f
@@ -47,6 +44,6 @@ sudo apt-get autoremove
 sudo chown -R steam:steam /home/steam/
 
 # Reboot
-sudo aptitude upgrade
+sudo aptitude full-upgrade
 sudo update-grub
 sudo reboot
