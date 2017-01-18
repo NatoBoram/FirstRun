@@ -16,12 +16,11 @@ Open [this](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%
 
 ## Personalization
 Using Ubuntu's [colour palette](http://design.ubuntu.com/brand/colour-palette)
-* Size : 18
 * Font : Ubuntu Mono
-* Screen Text : 238, 238, 238
-* Screen Background : 45, 9, 34
-* Popup Text : 45, 9, 34
-* Popup Background : 238, 238, 238
+* Screen Text : 246, 246, 245
+* Screen Background : 44, 0, 30
+* Popup Text : 44, 0, 30
+* Popup Background : 246, 246, 245
 * Opacity : 95%
 
 ## This will probably break everything
