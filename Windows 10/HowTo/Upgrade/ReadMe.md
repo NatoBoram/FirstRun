@@ -12,6 +12,7 @@ The fear of change is what most people experience when they think about Windows 
 0. [Virtual Desktops](https://en.wikipedia.org/wiki/Task_View)
 0. [DirectX 12](https://en.wikipedia.org/wiki/DirectX#DirectX_12)
 0. [Game](http://news.xbox.com/2017/01/13/creators-update-beam-streaming-increased-performance-fan-requested-features-coming-xbox-one-windows-10/) [Mode](https://blogs.windows.com/windowsexperience/2017/01/25/new-windows-10-creators-update-gaming-features-arrive-week-windows-insiders/)
+0. [Action Center](https://en.wikipedia.org/wiki/Action_Center)
 0. [Background Updates](https://en.wikipedia.org/wiki/Windows_Update#Windows_10)
 0. [PowerShell 5.1](https://en.wikipedia.org/wiki/PowerShell#PowerShell_5.0)
 0. Faster Boot Time
