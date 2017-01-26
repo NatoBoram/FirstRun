@@ -5,17 +5,18 @@ Some people spread hate about [Windows 10](https://en.wikipedia.org/wiki/Windows
 
 The fear of change is what most people experience when they think about Windows 10 and is the main reason why they won't upgrade. However, there are several good reasons to upgrade.
 
-1. [Cortana](https://en.wikipedia.org/wiki/Cortana_(software))
-2. [Universal Windows Platform](https://en.wikipedia.org/wiki/Universal_Windows_Platform)
-3. [Virtual Desktops](https://en.wikipedia.org/wiki/Task_View)
-4. [DirectX 12](https://en.wikipedia.org/wiki/DirectX#DirectX_12)
-5. [Windows Insider](https://en.wikipedia.org/wiki/Windows_Insider)
-6. [Background Updates](https://en.wikipedia.org/wiki/Windows_Update#Windows_10)
-7. [PowerShell 5.1](https://en.wikipedia.org/wiki/PowerShell#PowerShell_5.0)
-8. [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-ca/commandline/wsl/about)
-9. Faster Boot Time
-10. [Play Xbox games on Windows 10](https://en.wikipedia.org/wiki/Windows_10#Multimedia_and_gaming)
-11. [It's free!](https://en.wikipedia.org/wiki/Windows_10#Free_upgrade_offer)
+0. [Cortana](https://en.wikipedia.org/wiki/Cortana_(software))
+0. [Bash on Ubuntu on Windows](https://msdn.microsoft.com/en-ca/commandline/wsl/about)
+0. [Universal Windows Platform](https://en.wikipedia.org/wiki/Universal_Windows_Platform)
+0. [Windows Insider](https://en.wikipedia.org/wiki/Windows_Insider)
+0. [Virtual Desktops](https://en.wikipedia.org/wiki/Task_View)
+0. [DirectX 12](https://en.wikipedia.org/wiki/DirectX#DirectX_12)
+0. [Game](http://news.xbox.com/2017/01/13/creators-update-beam-streaming-increased-performance-fan-requested-features-coming-xbox-one-windows-10/) [Mode](https://blogs.windows.com/windowsexperience/2017/01/25/new-windows-10-creators-update-gaming-features-arrive-week-windows-insiders/)
+0. [Background Updates](https://en.wikipedia.org/wiki/Windows_Update#Windows_10)
+0. [PowerShell 5.1](https://en.wikipedia.org/wiki/PowerShell#PowerShell_5.0)
+0. Faster Boot Time
+0. [Play Xbox games on Windows 10](https://en.wikipedia.org/wiki/Windows_10#Multimedia_and_gaming)
+0. [It's free!](https://en.wikipedia.org/wiki/Windows_10#Free_upgrade_offer)
 
 To begin your installation, please download the [Media Creation Tool](https://www.microsoft.com/en-ca/software-download/windows10/).
 
