@@ -75,7 +75,7 @@ start "TCP Optimizer" "http://www.speedguide.net/downloads.php"
 start "Rufus" "https://rufus.akeo.ie/"
 start "VcXsrv" "https://sourceforge.net/projects/vcxsrv/"
 start "VirtualBox" "https://www.virtualbox.org/"
-start "Visual Studio" "https://www.visualstudio.com/downloads/"
+start "Visual Studio" "https://www.visualstudio.com/downloads/#visual-studio-community-2017-rc"
 start "Visual Studio Code" "https://code.visualstudio.com/"
 pause
 
