@@ -28,14 +28,3 @@ echo Download Programs
 PowerShell Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat -Destination C:\Install.bat
 start /wait C:\Install.bat
 del C:\Install.bat
-
-echo Windows 10 Upgrade
-mkdir C:\Windows10Upgrade\
-del C:\Windows10Upgrade\Windows10Upgrade.exe
-PowerShell Start-BitsTransfer -Source http://go.microsoft.com/fwlink/?LinkID=799445 -Destination C:\Windows10Upgrade\Windows10Upgrade.exe
-wuauclt /resetauthorization
-start /wait C:\Windows10Upgrade\Windows10Upgrade.exe
-
-echo PSWindowsUpdate
-PowerShell Get-WUInstall -MicrosoftUpdate -AcceptAll -AutoReboot -Verbose
-shutdown /r
