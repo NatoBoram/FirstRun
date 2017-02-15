@@ -31,19 +31,19 @@ echo "Pin-Priority: 110" | sudo tee -a /etc/apt/preferences
 echo "" | sudo tee -a /etc/apt/preferences
 
 # Discover Packages
-sudo aptitude update
+sudo apt update
+sudo apt full-upgrade
 
 # APT-GET
-sudo aptitude install default-jre gedit vlc libreoffice krita gimp
+sudo apt install gedit
 
 # Install References
-sudo apt-get install -f
-sudo apt-get autoremove
+sudo apt install -f
+sudo apt autoremove
 
 # Make Steam Great Again
 sudo chown -R steam:steam /home/steam/
 
 # Reboot
-sudo aptitude full-upgrade
 sudo update-grub
 sudo reboot
