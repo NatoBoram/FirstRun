@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Ask for password
 passwd
