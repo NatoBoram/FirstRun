@@ -39,6 +39,7 @@ pause
 echo Games
 start chrome
 ping 127.0.0.1 > nul
+start "Battle.net" "http://us.battle.net/en/app/"
 start "Cheat Engine" "http://www.cheatengine.org/"
 start "Discord" "https://discordapp.com/download"
 start "GeForce Experience" "http://www.geforce.com/geforce-experience"
