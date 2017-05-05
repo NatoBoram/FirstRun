@@ -2,30 +2,38 @@
 echo Help installing softwares on new Windows 10 computers.
 pause
 
-echo Google Chrome
-start "Google Chrome" "https://www.google.ca/chrome/browser/canary.html"
+echo Firefox Developer Edition
+start "Firefox Developer Edition" "https://www.mozilla.org/fr/firefox/developer/all/?q=French,%20Fran%C3%A7ais"
 pause
 
 echo Drivers
-start chrome
+start Firefox
 ping 127.0.0.1 > nul
-start "AdBlock Plus" "https://adblockplus.org/"
 start "Adobe Air" "https://get.adobe.com/fr/air/"
 start "Adobe Flash Player" "https://get.adobe.com/fr/flashplayer/"
 start "Adobe Reader" "https://get.adobe.com/fr/reader/"
 start "Adobe Shockwave" "https://get.adobe.com/fr/shockwave/"
 start "DirectX" "https://www.microsoft.com/fr-ca/download/confirmation.aspx?id=35"
+start "Intel Driver Update Utility" "https://downloadcenter.intel.com/download/24345/"
 start "Java" "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
-start "Noto Font" "https://www.google.com/get/noto/"
-start "Google Font" "https://github.com/google/fonts"
 start "Silverlight" "http://www.microsoft.com/silverlight/"
+start "uBlock Origin" "https://github.com/gorhill/uBlock"
 start "7-Zip" "http://www.7-zip.org/"
 pause
 
+echo Fonts
+start Firefox
+ping 127.0.0.1 > nul
+start "Comic Neue" "http://comicneue.com/#download"
+start "Google Font" "https://github.com/google/fonts"
+start "Noto Font" "https://www.google.com/get/noto/"
+pause
+
 echo Applications
-start chrome
+start Firefox
 ping 127.0.0.1 > nul
 start "Audacity" "http://audacityteam.org/download/"
+start "Free Download Manager" "http://www.freedownloadmanager.org/download.htm"
 start "FreeRapid" "http://wordrider.net/freerapid/download.htm"
 start "Gimp" "http://www.gimp.org/downloads/"
 start "Krita" "https://krita.org/en/download/krita-desktop/"
@@ -37,7 +45,7 @@ start "VLC Media Player" "http://www.videolan.org/vlc/download-windows.html"
 pause
 
 echo Games
-start chrome
+start Firefox
 ping 127.0.0.1 > nul
 start "Battle.net" "http://us.battle.net/en/app/"
 start "Cheat Engine" "http://www.cheatengine.org/"
@@ -48,16 +56,17 @@ start "League of Legends" "http://na.leagueoflegends.com/"
 start "LoL Updater" "https://lolupdater.com/"
 start "Minecraft" "https://minecraft.net/fr-ca/download/"
 start "MSI AfterBurner" "https://www.msi.com/page/afterburner"
+start "OBS Studio" "https://obsproject.com/download"
 start "Origin" "https://www.origin.com/can/en-us/store/download"
 start "Razer Surround" "http://www.razerzone.com/surround/"
 start "Razer Synapse" "http://www.razerzone.com/synapse/"
 start "Steam" "http://store.steampowered.com/about/"
-start "SystemRequirementsLab" "http://www.systemrequirementslab.com/cyri"
+start "System Requirements Lab" "http://www.systemrequirementslab.com/cyri"
 start "uPlay" "https://uplay.ubi.com/"
 pause
 
 echo Computer Tools
-start chrome
+start Firefox
 ping 127.0.0.1 > nul
 start "Android Studio" "https://developer.android.com/studio/index.html#downloads"
 start "AutoHotkey" "http://www.autohotkey.com/"
@@ -77,8 +86,9 @@ start "TCP Optimizer" "http://www.speedguide.net/downloads.php"
 start "Rufus" "https://rufus.akeo.ie/"
 start "VcXsrv" "https://sourceforge.net/projects/vcxsrv/"
 start "VirtualBox" "https://www.virtualbox.org/"
-start "Visual Studio" "https://www.visualstudio.com/downloads/#visual-studio-community-2017-rc"
+start "Visual Studio" "https://www.visualstudio.com/downloads/"
 start "Visual Studio Code" "https://code.visualstudio.com/"
+start "Wamp Server" "http://www.wampserver.com/#download-wrapper"
 pause
 
 exit
