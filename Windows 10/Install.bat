@@ -3,7 +3,7 @@ echo Help installing softwares on new Windows 10 computers.
 pause
 
 echo Firefox Developer Edition
-start "Firefox Developer Edition" "https://www.mozilla.org/fr/firefox/developer/all/?q=French,%20Fran%C3%A7ais"
+start "Firefox Developer Edition" "https://www.mozilla.org/fr/firefox/developer/all/"
 pause
 
 echo Drivers
