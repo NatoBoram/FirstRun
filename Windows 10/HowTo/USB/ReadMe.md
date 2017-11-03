@@ -10,8 +10,13 @@
 
 ## Windows 10 Setup
 ![4](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/4.PNG)
+
 ![5](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/5.PNG)
+
 ![6](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/6.PNG)
+
 ![7](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/7.PNG)
+
 ![8](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/8.PNG)
+
 ![9](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/9.PNG)
