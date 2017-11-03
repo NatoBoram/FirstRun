@@ -3,7 +3,9 @@
 
 ## Format USB Drive
 ![1](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/1.PNG)
+
 ![2](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/2.PNG)
+
 ![3](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/HowTo/USB/3.PNG)
 
 ## Windows 10 Setup
