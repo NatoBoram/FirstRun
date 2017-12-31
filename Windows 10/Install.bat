@@ -6,6 +6,18 @@ echo Firefox Developer Edition
 start "Firefox Developer Edition" "https://www.mozilla.org/fr/firefox/developer/all/"
 pause
 
+
+echo Firefox
+start Firefox
+ping 127.0.0.1 > nul
+start "uBlock Origin" "https://addons.mozilla.org/firefox/addon/ublock-origin/"
+start "Tampermonkey" "https://addons.mozilla.org/firefox/addon/tampermonkey/"
+start "Anti-AdBlock Killer" "https://reek.github.io/anti-adblock-killer/"
+start "Ads Bypasser" "https://adsbypasser.github.io/"
+start "HTTPS Everywhere" "https://addons.mozilla.org/firefox/addon/https-everywhere/"
+start "IPFS Companion" "https://addons.mozilla.org/firefox/addon/ipfs-companion/"
+start "Firefox Test Pilot" "https://testpilot.firefox.com/"
+
 echo Drivers
 start Firefox
 ping 127.0.0.1 > nul
@@ -18,7 +30,6 @@ start "Go" "https://golang.org/dl/"
 start "IPFS" "https://dist.ipfs.io/#go-ipfs"
 start "Java" "http://www.oracle.com/technetwork/java/javase/downloads/index.html"
 start "Silverlight" "http://www.microsoft.com/silverlight/"
-start "uBlock Origin" "https://github.com/gorhill/uBlock"
 start "7-Zip" "http://www.7-zip.org/"
 pause
 
@@ -41,6 +52,7 @@ start "Krita" "https://krita.org/en/download/krita-desktop/"
 start "LibreOffice" "http://www.libreoffice.org/download/libreoffice-fresh/?type=win-x86_64&version=5.3.0&lang=fr"
 start "Notepad++" "https://notepad-plus-plus.org/download/"
 start "QBitTorrent" "https://www.qbittorrent.org/download.php"
+start "Rainmeter" "https://www.rainmeter.net/"
 start "Skype" "http://www.skype.com/fr/download-skype/skype-for-computer/"
 start "VLC Media Player" "http://www.videolan.org/vlc/download-windows.html"
 pause
@@ -70,6 +82,7 @@ echo Computer Tools
 start Firefox
 ping 127.0.0.1 > nul
 start "Android Studio" "https://developer.android.com/studio/index.html#downloads"
+start "Atom" "https://atom.io/"
 start "AutoHotkey" "http://www.autohotkey.com/"
 start "Daemon Tools Lite" "http://www.disk-tools.com/download/daemon"
 start "Eclipse" "https://eclipse.org/downloads/"
