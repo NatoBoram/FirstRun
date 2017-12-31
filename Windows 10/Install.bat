@@ -6,7 +6,6 @@ echo Firefox Developer Edition
 start "Firefox Developer Edition" "https://www.mozilla.org/fr/firefox/developer/all/"
 pause
 
-
 echo Firefox
 start Firefox
 ping 127.0.0.1 > nul
@@ -17,6 +16,8 @@ start "Ads Bypasser" "https://adsbypasser.github.io/"
 start "HTTPS Everywhere" "https://addons.mozilla.org/firefox/addon/https-everywhere/"
 start "IPFS Companion" "https://addons.mozilla.org/firefox/addon/ipfs-companion/"
 start "Firefox Test Pilot" "https://testpilot.firefox.com/"
+start "Free Download Manager" "https://www.freedownloadmanager.org/"
+pause
 
 echo Drivers
 start Firefox
@@ -45,11 +46,10 @@ echo Applications
 start Firefox
 ping 127.0.0.1 > nul
 start "Audacity" "http://audacityteam.org/download/"
-start "Free Download Manager" "http://www.freedownloadmanager.org/download.htm"
 start "FreeRapid" "http://wordrider.net/freerapid/download.htm"
 start "Gimp" "http://www.gimp.org/downloads/"
 start "Krita" "https://krita.org/en/download/krita-desktop/"
-start "LibreOffice" "http://www.libreoffice.org/download/libreoffice-fresh/?type=win-x86_64&version=5.3.0&lang=fr"
+start "LibreOffice" "https://www.libreoffice.org/download/libreoffice-fresh/?type=win-x86_64"
 start "Notepad++" "https://notepad-plus-plus.org/download/"
 start "QBitTorrent" "https://www.qbittorrent.org/download.php"
 start "Rainmeter" "https://www.rainmeter.net/"
