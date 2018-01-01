@@ -15,6 +15,7 @@ start "Anti-AdBlock Killer" "https://reek.github.io/anti-adblock-killer/"
 start "Ads Bypasser" "https://adsbypasser.github.io/"
 start "HTTPS Everywhere" "https://addons.mozilla.org/firefox/addon/https-everywhere/"
 start "IPFS Companion" "https://addons.mozilla.org/firefox/addon/ipfs-companion/"
+start "Enhanced Steam" "https://addons.mozilla.org/firefox/addon/enhanced-steam/"
 start "Firefox Test Pilot" "https://testpilot.firefox.com/"
 start "Free Download Manager" "https://www.freedownloadmanager.org/"
 pause
