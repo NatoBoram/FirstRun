@@ -1,4 +1,4 @@
-# How to install Windows 10 using an USB Key
+# How to update Windows 10
 1. Download [Windows10Upgrade](http://go.microsoft.com/fwlink/?LinkID=799445)
 
 ## Windows 10 Update Assistant
