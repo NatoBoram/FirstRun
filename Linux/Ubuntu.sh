@@ -13,7 +13,7 @@ sudo apt full-upgrade -y --auto-remove
 sudo ubuntu-drivers autoinstall
 
 # APT
-sudo apt install -y adb baobab default-jdk font-manager git git-lfs gnome-tweaks krita neofetch p7zip-full steam
+sudo apt install -y adb baobab default-jdk font-manager git git-lfs gnome-tweaks krita neofetch openjfx p7zip-full steam
 
 # Third-Party
 sudo apt install -y openrazer-meta
