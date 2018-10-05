@@ -1,16 +1,16 @@
 #!/bin/sh
 
-# Update
-sudo apt update
-sudo apt full-upgrade -y --auto-remove
-
 # Remove duplicates in advance
 sudo apt purge -y --auto-remove eog evince gedit gnome-font-viewer
 
 # PPA
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo add-apt-repository -y ppa:openrazer/stable
+
+# Update
 sudo apt update
+sudo apt full-upgrade -y --auto-remove
+sudo ubuntu-drivers autoinstall
 
 # APT
 sudo apt install -y adb baobab default-jdk font-manager git git-lfs gnome-tweaks krita p7zip-full steam
@@ -59,9 +59,7 @@ sudo snap install snapcraft --classic
 sudo snap install vlc
 
 # Fixes for various snaps
-
 sudo snap connect github-desktop:password-manager-service
-
 sudo snap connect glances:network
 sudo snap connect glances:system-observe
 sudo snap connect glances:mount-observe
