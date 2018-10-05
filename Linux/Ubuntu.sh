@@ -8,6 +8,7 @@ sudo apt full-upgrade -y --auto-remove
 sudo apt purge -y --auto-remove eog evince gedit gnome-font-viewer
 
 # PPA
+sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo add-apt-repository -y ppa:openrazer/stable
 sudo apt update
 
