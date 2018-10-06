@@ -4,7 +4,6 @@ Invoke-Expression (New-Object net.webclient).downloadstring('https://get.scoop.s
 # Setup
 scoop install sudo
 sudo scoop install --global git openssh aria2
-exit
 
 # Update
 scoop status
