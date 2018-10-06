@@ -23,8 +23,3 @@ ipconfig /renew
 echo Time
 net start w32time
 w32tm /resync
-
-echo Download Programs
-PowerShell Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat -Destination C:\Install.bat
-start /wait C:\Install.bat
-del C:\Install.bat
