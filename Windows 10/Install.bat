@@ -1,6 +1,6 @@
 @echo off
 echo Help installing softwares on new Windows 10 computers.
-echo This script assumes you've installed `scoop`.
+echo This script assumes you've installed scoop.
 pause
 
 REM echo Firefox Developer Edition
