@@ -19,12 +19,12 @@ Del Scoop.bat
 
 REM Install
 PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat -Destination Install.bat"
-Start /Min /Wait Install.bat
+Start /Wait Install.bat
 Del Install.bat
 
 REM PSWindowsUpdate
 PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/PSWindowsUpdate.bat -Destination PSWindowsUpdate.bat"
-Start /Min /Wait PSWindowsUpdate.bat
+Start /Wait PSWindowsUpdate.bat
 Del PSWindowsUpdate.bat
 
 Exit
