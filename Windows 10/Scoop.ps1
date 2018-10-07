@@ -14,4 +14,4 @@ scoop bucket add extras
 scoop bucket add java
 
 # Install Applications
-sudo scoop install --global android-sdk android-studio autohotkey curl eclipse-java filezilla firefox-developer gimp github go go-ipfs libreoffice-fresh nodejs openjdk python qbittorrent rainmeter rufus steam vlc vscode-insiders wget
+sudo scoop install --global android-sdk android-studio autohotkey curl eclipse-java filezilla firefox-developer gimp github go go-ipfs libreoffice-fresh mediacreationtool msiafterburner nano nodejs openjdk python qbittorrent rainmeter rufus steam vlc vscode-insiders wget
