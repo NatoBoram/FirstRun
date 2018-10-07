@@ -1,25 +1,28 @@
-@echo off
+@Echo Off
+CD %UserProfile%/Downloads
 
-echo Google Public DNS
-set DNS1=8.8.8.8
-set DNS2=8.8.4.4
-set DNS3=2001:4860:4860::8888
-set DNS4=2001:4860:4860::8844
-for /f "tokens=1,2,3*" %%i in ('netsh int show interface') do (
-	if %%i equ Enabled (
-		echo "%%l" : %DNS1% + %DNS2% + %DNS3% + %DNS4%
-		netsh int ipv4 set dns name="%%l" static %DNS1% primary validate=no
-		netsh int ipv4 add dns name="%%l" %DNS2% index=2 validate=no
-		netsh int ipv6 set dns name="%%l" static %DNS3% primary validate=no
-		netsh int ipv6 add dns name="%%l" %DNS4% index=2 validate=no
-	)
-)
+REM Google DNS
+PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/GoogleDNS.bat -Destination GoogleDNS.bat"
+Start /Min /Wait GoogleDNS.bat
+Del GoogleDNS.bat
 
-echo IPConfig
-ipconfig /release
-ipconfig /flushdns
-ipconfig /renew
+REM Fonts
+PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Fonts.bat -Destination Fonts.bat"
+Start /Min /Wait Fonts.bat
+Del Fonts.bat
 
-echo Time
-net start w32time
-w32tm /resync
+REM Scoop
+PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Scoop.bat -Destination Scoop.bat"
+Start /Min /Wait Scoop.bat
+Start /Min /Wait Scoop.bat
+Del Scoop.bat
+
+REM Install
+PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Install.bat -Destination Install.bat"
+Start /Min /Wait Install.bat
+Del Install.bat
+
+REM PSWindowsUpdate
+PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/PSWindowsUpdate.bat -Destination PSWindowsUpdate.bat"
+Start /Min /Wait PSWindowsUpdate.bat
+Del PSWindowsUpdate.bat
