@@ -26,3 +26,5 @@ REM PSWindowsUpdate
 PowerShell "Start-BitsTransfer -Source https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/PSWindowsUpdate.bat -Destination PSWindowsUpdate.bat"
 Start /Min /Wait PSWindowsUpdate.bat
 Del PSWindowsUpdate.bat
+
+Exit
