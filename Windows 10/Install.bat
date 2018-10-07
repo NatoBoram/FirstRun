@@ -3,17 +3,18 @@ echo Help installing softwares on new Windows 10 computers.
 echo This script assumes you've installed `scoop`.
 pause
 
-echo Firefox Developer Edition
+REM echo Firefox Developer Edition
 REM start "Firefox Developer Edition" "https://www.mozilla.org/fr/firefox/developer/all/"
-pause
+REM pause
 
 echo Firefox
-start Firefox
+start "Firefox" "https://google.ca"
 ping 127.0.0.1 > nul
 start "uBlock Origin" "https://addons.mozilla.org/firefox/addon/ublock-origin/"
 start "Tampermonkey" "https://addons.mozilla.org/firefox/addon/tampermonkey/"
 start "Anti-AdBlock Killer" "https://reek.github.io/anti-adblock-killer/"
 start "Ads Bypasser" "https://adsbypasser.github.io/"
+start "Beemoov Annoyances" "https://gitlab.com/NatoBoram/Beemoov-Annoyances"
 start "HTTPS Everywhere" "https://addons.mozilla.org/firefox/addon/https-everywhere/"
 start "IPFS Companion" "https://addons.mozilla.org/firefox/addon/ipfs-companion/"
 start "Enhanced Steam" "https://addons.mozilla.org/firefox/addon/enhanced-steam/"
@@ -22,7 +23,7 @@ start "Free Download Manager" "https://www.freedownloadmanager.org/"
 pause
 
 echo Drivers
-start Firefox
+start "Firefox" "https://google.ca"
 ping 127.0.0.1 > nul
 start "Adobe Reader" "https://get.adobe.com/fr/reader/"
 start "GeForce Experience" "http://www.geforce.com/geforce-experience"
@@ -34,16 +35,16 @@ start "Razer Surround" "http://www.razerzone.com/surround/"
 REM start "7-Zip" "http://www.7-zip.org/"
 pause
 
-echo Fonts
-start Firefox
-ping 127.0.0.1 > nul
-start "Comic Neue" "http://comicneue.com/#download"
-start "Google Font" "https://github.com/google/fonts"
-start "Noto Font" "https://www.google.com/get/noto/"
-pause
+REM echo Fonts
+REM start "Firefox" "https://google.ca"
+REM ping 127.0.0.1 > nul
+REM start "Comic Neue" "http://comicneue.com/#download"
+REM start "Google Font" "https://github.com/google/fonts"
+REM start "Noto Font" "https://www.google.com/get/noto/"
+REM pause
 
 echo Applications
-start Firefox
+start "Firefox" "https://google.ca"
 ping 127.0.0.1 > nul
 REM start "Audacity" "http://audacityteam.org/download/"
 start "Discord" "https://discordapp.com/download"
@@ -57,7 +58,7 @@ REM start "VLC Media Player" "http://www.videolan.org/vlc/download-windows.html"
 pause
 
 echo Games
-start Firefox
+start "Firefox" "https://google.ca"
 ping 127.0.0.1 > nul
 start "Battle.net" "http://us.battle.net/en/app/"
 REM start "Cheat Engine" "http://www.cheatengine.org/"
@@ -71,7 +72,7 @@ start "uPlay" "https://uplay.ubi.com/"
 pause
 
 echo Computer Tools
-start Firefox
+start "Firefox" "https://google.ca"
 ping 127.0.0.1 > nul
 REM start "Android Studio" "https://developer.android.com/studio/index.html#downloads"
 REM start "Atom" "https://atom.io/"
