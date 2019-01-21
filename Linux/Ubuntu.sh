@@ -20,7 +20,6 @@ sudo apt install -y openrazer-meta
 
 # Snaps
 sudo snap install android-studio --classic
-sudo snap install atom --classic
 sudo snap install canonical-livepatch
 sudo snap install cointop core18
 sudo snap install core
