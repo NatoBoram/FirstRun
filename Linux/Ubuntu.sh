@@ -50,6 +50,7 @@ sudo snap install hollywood --classic
 sudo snap install htop
 sudo snap install inkscape
 sudo snap install ipfs
+sudo snap install ipfs-cluster --edge
 sudo snap install libreoffice
 sudo snap install node --edge --classic
 sudo snap install orion
