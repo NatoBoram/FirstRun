@@ -20,6 +20,7 @@ sudo add-apt-repository -y ppa:openrazer/stable
 # Third-Party Drivers
 sudo apt install -y --auto-remove openrazer-meta
 sudo ubuntu-drivers autoinstall
+sudo gpasswd -a $USER plugdev
 
 # Snaps
 sudo snap install android-studio --classic
