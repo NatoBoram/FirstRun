@@ -11,7 +11,7 @@ sudo apt update
 sudo apt full-upgrade -y --auto-remove
 
 # Install
-sudo apt install -y --auto-remove adb aria2 baobab default-jdk font-manager git git-lfs krita neofetch p7zip-full snapd software-properties-common steam unattended-upgrades youtube-dl
+sudo apt install -y --auto-remove adb aria2 baobab default-jdk fail2ban font-manager git git-lfs krita neofetch p7zip-full snapd software-properties-common steam unattended-upgrades youtube-dl
 
 # PPA
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
