@@ -67,6 +67,7 @@ sudo snap connect glances:log-observe
 sudo snap connect glances:network-observe
 sudo snap connect glances:physical-memory-observe
 sudo snap connect glances:upower-observe
+sudo snap connect ipfs:removable-media
 
 # Release Upgrade
 sudo do-release-upgrade
