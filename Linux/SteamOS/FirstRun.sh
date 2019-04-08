@@ -34,7 +34,7 @@ echo "" | sudo tee -a /etc/apt/preferences
 sudo apt update
 sudo apt full-upgrade
 
-# APT-GET
+# APT
 sudo apt install gedit
 
 # Install References
