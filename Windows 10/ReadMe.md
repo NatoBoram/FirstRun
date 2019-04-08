@@ -12,8 +12,9 @@ When first booting into Windows 10, there are a few things that you might want t
 7. `1`
 
 ## First Run
-1. Open Command Prompt as Administrator
-2. Copy all the content of [FirstRun](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/FirstRun.bat)
+
+1. Open Command Prompt as Administrator.
+2. Copy all the content of [Scoop](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Scoop.bat).
 3. Paste it in Command Prompt.
 
 ## Future References
