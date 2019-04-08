@@ -1,4 +1,5 @@
 # Windows 10
+
 When first booting into Windows 10, there are a few things that you might want to do.
 
 ## GMT
@@ -18,4 +19,5 @@ When first booting into Windows 10, there are a few things that you might want t
 3. Paste it in Command Prompt.
 
 ## Future References
+
 [Upgrade](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Upgrade/ReadMe.md) | [DVD](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/DVD/ReadMe.md) | [USB](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/USB/ReadMe.md) | [Update](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Update/ReadMe.md) | [Refresh](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Refresh/ReadMe.md) | [Bash](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Bash/ReadMe.md)
