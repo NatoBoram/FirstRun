@@ -2,7 +2,8 @@
 When first booting into Windows 10, there are a few things that you might want to do.
 
 ## GMT
-1. [Windows] + R
+
+1. <kbd>Windows</kbd> + <kbd>R</kbd>
 2. `regedit`
 3. `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
 4. New
