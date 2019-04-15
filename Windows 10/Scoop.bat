@@ -21,6 +21,8 @@ scoop bucket add extras
 scoop bucket add java
 scoop bucket add games
 
+Rem ---
+
 Rem Install
 Start PowerShell scoop install --global android-sdk
 Start PowerShell scoop install --global android-studio
