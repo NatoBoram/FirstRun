@@ -33,7 +33,7 @@ sudo snap install ffmpeg
 sudo snap install firefox
 sudo snap install gedit
 sudo snap install gimp
-sudo snap install github-desktop --edge
+sudo snap install github-desktop --beta --classic
 sudo snap install glances
 sudo snap install gnome-3-26-1604
 sudo snap install gnome-3-28-1804
