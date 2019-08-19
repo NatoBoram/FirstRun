@@ -10,6 +10,7 @@ Rem Setup
 scoop install --global git openssh aria2 sudo
 
 Rem Config
+PowerShell "[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')"
 scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
 
