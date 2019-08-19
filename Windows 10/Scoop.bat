@@ -1,6 +1,7 @@
-﻿@Echo Off
+@Echo Off
 
 Rem Scoop
+PowerShell "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
 PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https://get.scoop.sh')"
 
 Rem ---
