@@ -1,10 +1,8 @@
-@Echo Off
+﻿@Echo Off
 
 Rem Scoop
 PowerShell "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
 PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https://get.scoop.sh')"
-
-Rem ---
 
 Rem Setup
 scoop install --global git openssh aria2 sudo
@@ -15,15 +13,12 @@ scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
 
 Rem Update
-scoop status
 scoop update
 
 Rem Buckets
 scoop bucket add extras
 scoop bucket add java
 scoop bucket add games
-
-Rem ---
 
 Rem Install
 Start PowerShell scoop install --global android-sdk
@@ -63,4 +58,8 @@ Start PowerShell scoop install --global syncthing
 Start PowerShell scoop install --global terminus
 Start PowerShell scoop install --global touch
 
-Exit
+REM Status
+scoop status
+scoop checkup
+
+Echo On
