@@ -1,4 +1,9 @@
-﻿@Echo Off
+@Echo Off
+
+Rem OpenSSH
+PowerShell "Add-WindowsCapability -Online -Name OpenSSH.Client"
+PowerShell "Set-Service -Name ssh-agent -StartupType AutomaticDelayedStart"
+PowerShell "Start-Service ssh-agent"
 
 Rem Scoop
 PowerShell "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
