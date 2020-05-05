@@ -9,6 +9,8 @@ Rem Scoop
 PowerShell "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
 PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https://get.scoop.sh')"
 
+Rem ---
+
 Rem Setup
 scoop install --global git aria2 sudo
 
@@ -16,6 +18,8 @@ Rem Config
 PowerShell "[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')"
 scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
+
+Rem ---
 
 Rem Update
 scoop update
