@@ -14,6 +14,7 @@ sudo apt install -y glances gnome-calendar htop gnome-dictionary gnome-clocks gn
 # Third-Party Drivers
 sudo ubuntu-drivers autoinstall
 # sudo apt install -y openrazer-meta
+sudo apt install -y nvidia-cuda-toolkit
 sudo gpasswd -a $USER plugdev
 
 # Snaps
