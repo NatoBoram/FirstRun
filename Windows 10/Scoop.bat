@@ -12,7 +12,7 @@ PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https:/
 Rem ---
 
 Rem Setup
-scoop install --global git aria2 sudo
+scoop install --global git aria2 sudo win32-openssh
 
 Rem Config
 PowerShell "[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')"
