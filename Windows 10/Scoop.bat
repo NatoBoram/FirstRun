@@ -22,6 +22,7 @@ scoop config aria2-max-connection-per-server 16
 Rem ---
 
 Rem Update
+git config --global fetch.parallel 0
 scoop update
 
 Rem Buckets
@@ -37,7 +38,6 @@ Start PowerShell scoop install --global curl
 Start PowerShell scoop install --global dark
 Start PowerShell scoop install --global dart
 Start PowerShell scoop install --global dotnet-sdk
-Start PowerShell scoop install --global ffmpeg
 Start PowerShell scoop install --global ffmpeg
 Start PowerShell scoop install --global freedownloadmanager
 Start PowerShell scoop install --global gimp
