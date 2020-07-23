@@ -3,6 +3,7 @@
 # PPA
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 # sudo add-apt-repository -y ppa:openrazer/stable
+sudo add-apt-repository ppa:kritalime/ppa
 
 # Update
 sudo apt update
