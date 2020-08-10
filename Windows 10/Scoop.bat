@@ -1,10 +1,5 @@
 @Echo Off
 
-Rem OpenSSH
-PowerShell "Add-WindowsCapability -Online -Name OpenSSH.Client"
-PowerShell "Set-Service -Name ssh-agent -StartupType AutomaticDelayedStart"
-PowerShell "Start-Service ssh-agent"
-
 Rem Scoop
 PowerShell "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
 PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https://get.scoop.sh')"
@@ -12,9 +7,15 @@ PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https:/
 Rem ---
 
 Rem Setup
-scoop install --global git aria2 sudo win32-openssh
+scoop install --global git aria2 sudo win32-openssh pwsh
+
+Rem OpenSSH
+pwsh "Add-WindowsCapability -Online -Name OpenSSH.Client"
+pwsh "Set-Service -Name ssh-agent -StartupType AutomaticDelayedStart"
+pwsh "Start-Service ssh-agent"
 
 Rem Config
+sudo C:\ProgramData\scoop\apps\win32-openssh\current\install-sshd.ps1
 PowerShell "[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')"
 scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
@@ -60,7 +61,6 @@ Start PowerShell scoop install --global nodejs
 Start PowerShell scoop install --global nssm
 Start PowerShell scoop install --global openjdk
 Start PowerShell scoop install --global openssl
-Start PowerShell scoop install --global pwsh
 Start PowerShell scoop install --global qbittorrent
 Start PowerShell scoop install --global rainmeter
 Start PowerShell scoop install --global rufus
