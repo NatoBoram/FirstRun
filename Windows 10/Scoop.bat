@@ -7,23 +7,20 @@ PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https:/
 Rem ---
 
 Rem Setup
-scoop install --global git aria2 sudo win32-openssh pwsh
+scoop install --global git aria2 sudo win32-openssh
 
-Rem OpenSSH
-pwsh "Add-WindowsCapability -Online -Name OpenSSH.Client"
-pwsh "Set-Service -Name ssh-agent -StartupType AutomaticDelayedStart"
-pwsh "Start-Service ssh-agent"
+Rem ---
 
 Rem Config
 sudo C:\ProgramData\scoop\apps\win32-openssh\current\install-sshd.ps1
 PowerShell "[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')"
 scoop config aria2-split 16
 scoop config aria2-max-connection-per-server 16
+git config --global fetch.parallel 0
 
 Rem ---
 
 Rem Update
-git config --global fetch.parallel 0
 scoop update
 
 Rem Buckets
