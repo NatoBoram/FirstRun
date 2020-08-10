@@ -27,6 +27,7 @@ Rem Buckets
 scoop bucket add extras
 scoop bucket add java
 scoop bucket add games
+scoop bucket add github-gh https://github.com/cli/scoop-gh.git
 
 Rem Install
 Start PowerShell scoop install --global android-sdk
@@ -40,6 +41,7 @@ Start PowerShell scoop install --global ffmpeg
 Start PowerShell scoop install --global freedownloadmanager
 Start PowerShell scoop install --global gimp
 Start PowerShell scoop install --global github
+Start PowerShell scoop install --global gh
 Start PowerShell scoop install --global go
 Start PowerShell scoop install --global go-ipfs
 Start PowerShell scoop install --global gradle
