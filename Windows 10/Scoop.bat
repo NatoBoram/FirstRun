@@ -31,11 +31,13 @@ scoop bucket add extras
 scoop bucket add java
 scoop bucket add games
 scoop bucket add github-gh https://github.com/cli/scoop-gh.git
+scoop bucket add SysInternals https://github.com/Ash258/Scoop-Sysinternals.git
 
 Rem Install
 Start PowerShell scoop install --global android-sdk
 Start PowerShell scoop install --global android-studio
 Start PowerShell scoop install --global autohotkey
+Start PowerShell scoop install --global autoruns
 Start PowerShell scoop install --global curl
 Start PowerShell scoop install --global dark
 Start PowerShell scoop install --global dart
