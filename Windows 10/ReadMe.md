@@ -12,6 +12,12 @@ When first booting into Windows 10, there are a few things that you might want t
 6. `RealTimeIsUniversal`
 7. `1`
 
+## Windows Capabilities
+
+```cmd
+dism /online /Remove-Capability /CapabilityName:Browser.InternetExplorer~~~~0.0.11.0
+```
+
 ## First Run
 
 1. Open Command Prompt as Administrator.
