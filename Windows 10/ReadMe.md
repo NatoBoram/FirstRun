@@ -16,6 +16,10 @@ When first booting into Windows 10, there are a few things that you might want t
 
 ```cmd
 dism /online /Remove-Capability /CapabilityName:Browser.InternetExplorer~~~~0.0.11.0
+
+dism /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+dism /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+wsl --set-default-version 2
 ```
 
 ## First Run
