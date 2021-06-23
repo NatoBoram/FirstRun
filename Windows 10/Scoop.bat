@@ -86,4 +86,9 @@ REM Status
 scoop status
 scoop checkup
 
+Rem ---
+
+REM WinGet
+winget install Blitz.Blitz Discord.DiscordDevelopment Microsoft.UpdateAssistant Mojang.MinecraftLauncher Mozilla.FirefoxDeveloperEdition Nvidia.GeForceExperience RiotGames.LeagueOfLegends Valve.Steam
+
 Echo On
