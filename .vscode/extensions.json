@@ -5,16 +5,9 @@
 	"recommendations": [
 		"davidanson.vscode-markdownlint",
 		"ms-vscode.powershell",
-		"donjayamanne.githistory",
-		"eamodio.gitlens",
-		"felipecaputo.git-project-manager",
-		"firefox-devtools.vscode-firefox-debug",
-		"hookyqr.beautify",
-		"icrawl.discord-vscode",
-		"johnpapa.read-time",
-		"pnp.polacode",
-		"visualstudioexptteam.vscodeintellicode",
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
-	"unwantedRecommendations": []
+	"unwantedRecommendations": [
+		"vscodevim.vim"
+	]
 }
