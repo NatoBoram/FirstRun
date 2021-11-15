@@ -10,12 +10,21 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew install romkatv/powerlevel10k/powerlevel10k
 echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
-brew install aria2 gh git git-flow-avh go gpg neofetch node openjdk openssl p7zip shfmt wget
+# Tap
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
 
+# Formulae
+brew install aria2 gh git git-flow-avh go gpg neofetch node openjdk p7zip pnpm shfmt wget
+
+# Casks
 brew install android-studio
+brew install discord-developer
+brew install firefox-developer-edition
 brew install free-download-manager
 brew install libreoffice
 brew install microsoft-edge
+brew install minecraft
 brew install powershell-preview
 brew install steam
 brew install visual-studio-code-insiders
