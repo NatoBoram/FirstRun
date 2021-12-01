@@ -7,12 +7,12 @@ PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https:/
 Rem ---
 
 Rem Setup
-scoop install --global git aria2 sudo win32-openssh pwsh
+scoop install --global git aria2 sudo openssh pwsh
 
 Rem ---
 
 Rem Config
-C:\ProgramData\scoop\apps\win32-openssh\current\install-sshd.ps1
+C:\ProgramData\scoop\apps\openssh\current\install-sshd.ps1
 Add-WindowsCapability -Online -Name OpenSSH.Client
 Set-Service -Name ssh-agent -StartupType AutomaticDelayedStart
 Start-Service ssh-agent
