@@ -7,6 +7,9 @@ sudo add-apt-repository -y ppa:kritalime/ppa
 #sudo add-apt-repository -y ppa:openrazer/stable
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-unstable
 
+# RCE PPA
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+
 # Update
 sudo apt update
 sudo apt full-upgrade -y --auto-remove
