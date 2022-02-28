@@ -16,6 +16,7 @@ sudo apt full-upgrade -y --auto-remove
 
 # Install
 sudo apt install -y adb aria2 baobab curl flatpak font-manager git git-flow git-lfs glances gnome-calendar gnome-clocks gnome-contacts gnome-tweaks htop neofetch p7zip-full steam youtube-dl zsh
+sudo apt purge -y --auto-remove mpv
 
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
