@@ -4,10 +4,16 @@
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
 		"davidanson.vscode-markdownlint",
-		"ms-vscode.powershell",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"foxundermoon.shell-format",
+		"ms-vscode.powershell"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
+		"googlecloudtools.cloudcode",
+		"johnstoncode.svn-scm",
+		"ms-kubernetes-tools.vscode-kubernetes-tools",
 		"vscodevim.vim"
 	]
 }

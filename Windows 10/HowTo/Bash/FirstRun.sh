@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Graphical User Interface
-echo "export DISPLAY=:0.0" >> ~/.bashrc
+echo "export DISPLAY=:0.0" >>~/.bashrc
 sudo touch /etc/dbus-1/session.conf
 sudo sed -i 's/<listen>.*<\/listen>/<listen>tcp:host=localhost,port=0<\/listen>/' /etc/dbus-1/session.conf
 
