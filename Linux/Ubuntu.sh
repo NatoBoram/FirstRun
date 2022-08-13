@@ -3,7 +3,6 @@
 # PPA
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo add-apt-repository -y ppa:inkscape.dev/stable
-sudo add-apt-repository -y ppa:kritalime/ppa
 #sudo add-apt-repository -y ppa:openrazer/stable
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-unstable
 
