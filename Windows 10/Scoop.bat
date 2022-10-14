@@ -100,10 +100,10 @@ Rem ---
 
 REM WinGet
 winget install Blitz.Blitz
-winget install Discord.DiscordDevelopment
+winget install Discord.Discord.Development
 winget install Microsoft.UpdateAssistant
 winget install Mojang.MinecraftLauncher
-winget install Mozilla.FirefoxDeveloperEdition
+winget install Mozilla.Firefox.DeveloperEdition
 winget install Nvidia.GeForceExperience
 winget install Valve.Steam
 
