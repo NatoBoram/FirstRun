@@ -21,8 +21,8 @@ scoop install --global git aria2 sudo openssh
 Rem ---
 
 Rem Config
+PowerShell "Add-WindowsCapability -Online -Name OpenSSH.Client"
 C:\ProgramData\scoop\apps\openssh\current\install-sshd.ps1
-Add-WindowsCapability -Online -Name OpenSSH.Client
 Set-Service -Name ssh-agent -StartupType AutomaticDelayedStart
 Start-Service ssh-agent
 [environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')
