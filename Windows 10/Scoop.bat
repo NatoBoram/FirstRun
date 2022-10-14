@@ -107,4 +107,7 @@ winget install Mozilla.Firefox.DeveloperEdition
 winget install Nvidia.GeForceExperience
 winget install Valve.Steam
 
+Rem ShareX, https://www.microsoft.com/store/productId/9NBLGGH4Z1SP
+winget install 9NBLGGH4Z1SP
+
 Echo On
