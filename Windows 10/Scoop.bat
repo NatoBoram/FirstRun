@@ -1,5 +1,14 @@
 @Echo Off
 
+Rem App Installer, https://www.microsoft.com/store/productId/9NBLGGH4NNS1
+winget install 9NBLGGH4NNS1
+
+Rem PowerShell Preview, https://www.microsoft.com/store/productId/9P95ZZKTNRN4
+winget install 9P95ZZKTNRN4
+
+Rem Windows Terminal Preview, https://www.microsoft.com/store/productId/9N8G5RFZ9XK3
+winget install 9N8G5RFZ9XK3
+
 Rem Scoop
 PowerShell "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
 PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https://get.scoop.sh')"
@@ -7,7 +16,7 @@ PowerShell "Invoke-Expression (New-Object net.webclient).downloadstring('https:/
 Rem ---
 
 Rem Setup
-scoop install --global git aria2 sudo openssh pwsh
+scoop install --global git aria2 sudo openssh
 
 Rem ---
 
