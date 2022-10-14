@@ -99,6 +99,12 @@ scoop checkup
 Rem ---
 
 REM WinGet
-winget install Blitz.Blitz Discord.DiscordDevelopment Microsoft.UpdateAssistant Mojang.MinecraftLauncher Mozilla.FirefoxDeveloperEdition Nvidia.GeForceExperience Valve.Steam
+winget install Blitz.Blitz
+winget install Discord.DiscordDevelopment
+winget install Microsoft.UpdateAssistant
+winget install Mojang.MinecraftLauncher
+winget install Mozilla.FirefoxDeveloperEdition
+winget install Nvidia.GeForceExperience
+winget install Valve.Steam
 
 Echo On
