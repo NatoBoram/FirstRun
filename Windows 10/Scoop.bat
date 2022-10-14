@@ -39,6 +39,7 @@ Rem Buckets
 scoop bucket add extras
 scoop bucket add java
 scoop bucket add games
+scoop bucket add versions
 scoop bucket add github-gh https://github.com/cli/scoop-gh.git
 scoop bucket add SysInternals https://github.com/Ash258/Scoop-Sysinternals.git
 
