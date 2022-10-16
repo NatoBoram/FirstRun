@@ -12,3 +12,5 @@ git clone git@github.com:arcticicestudio/nord-gnome-terminal.git
 cd nord-gnome-terminal
 ./src/install.sh
 cd ~/Applications
+
+# https://extensions.gnome.org/extension/19/user-themes/
