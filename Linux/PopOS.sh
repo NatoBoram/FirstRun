@@ -9,3 +9,6 @@ gsettings set org.gnome.desktop.wm.keybindings switch-windows-backward "['<Shift
 # Fullscreen
 gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "['<Super>m', '<Super>Up']"
 gsettings set org.gnome.desktop.wm.keybindings minimize "['<Super>Down']"
+
+# Fix dash-to-dock
+gsettings set org.gnome.shell.extensions.dash-to-dock intellihide-mode 'FOCUS_APPLICATION_WINDOWS'
