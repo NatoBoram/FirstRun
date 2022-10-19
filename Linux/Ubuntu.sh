@@ -19,8 +19,9 @@ sudo apt update
 sudo apt full-upgrade -y --auto-remove
 
 # Install
-sudo apt install -y adb aria2 baobab curl flatpak font-manager git git-flow git-lfs glances gnome-calendar gnome-clocks gnome-contacts gnome-tweaks htop neofetch p7zip-full steam ubuntu-drivers-common youtube-dl zsh
+sudo apt install -y adb aria2 baobab curl flatpak font-manager git git-flow git-lfs glances gnome-calendar gnome-clocks gnome-contacts gnome-tweaks htop neofetch nodejs p7zip-full steam ubuntu-drivers-common youtube-dl zsh
 sudo apt purge -y --auto-remove mpv
+curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 # ZSH
 chsh -s $(which zsh)
