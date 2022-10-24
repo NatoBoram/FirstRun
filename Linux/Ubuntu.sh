@@ -7,6 +7,7 @@ sudo curl -o /usr/share/keyrings/syncthing-archive-keyring.gpg https://syncthing
 sudo add-apt-repository -y ppa:git-core/ppa
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo add-apt-repository -y ppa:inkscape.dev/stable
+sudo add-apt-repository -y ppa:lubomir-brindza/nautilus-typeahead
 #sudo add-apt-repository -y ppa:openrazer/stable
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-unstable
 echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
@@ -45,7 +46,6 @@ sudo snap install core18
 sudo snap install go --classic
 sudo snap install gtk-common-themes
 sudo snap install libreoffice
-sudo snap install node --edge --classic
 sudo snap install snapcraft --classic
 sudo snap install vlc
 
