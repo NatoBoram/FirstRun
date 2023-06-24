@@ -57,6 +57,7 @@ flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flath
 
 flatpak install --system https://dl.flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
 flatpak install --system https://dl.flathub.org/repo/appstream/org.kde.krita.flatpakref
+flatpak install --system https://dl.flathub.org/repo/appstream/org.prismlauncher.PrismLauncher.flatpakref
 
 # Release Upgrade
 sudo do-release-upgrade
