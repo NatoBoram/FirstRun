@@ -59,6 +59,34 @@ flatpak install --system https://dl.flathub.org/repo/appstream/org.gimp.GIMP.fla
 flatpak install --system https://dl.flathub.org/repo/appstream/org.kde.krita.flatpakref
 flatpak install --system https://dl.flathub.org/repo/appstream/org.prismlauncher.PrismLauncher.flatpakref
 
+# asdf
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
+# plugins=(asdf)
+echo '# ASDF' >>~/.profile
+echo 'PATH="$HOME/.asdf/bin:$PATH"' >>~/.profile
+echo 'PATH="$HOME/.asdf/shims:$PATH"' >>~/.profile
+
+asdf update
+asdf plugin update --all
+
+asdf plugin add elixir
+asdf plugin add erlang
+asdf plugin add gradle
+asdf plugin add nodejs
+asdf plugin add pnpm
+
+asdf install elixir latest
+asdf install erlang latest
+asdf install gradle latest
+asdf install nodejs latest
+asdf install pnpm latest
+
+asdf global elixir latest
+asdf global erlang latest
+asdf global gradle latest
+asdf global nodejs latest
+asdf global pnpm latest
+
 # Release Upgrade
 sudo do-release-upgrade
 
