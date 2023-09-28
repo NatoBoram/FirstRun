@@ -8,21 +8,16 @@ sudo add-apt-repository -y ppa:git-core/ppa
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
 sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y ppa:lubomir-brindza/nautilus-typeahead
-#sudo add-apt-repository -y ppa:openrazer/stable
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-unstable
 echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
-
-# RCE PPA
-curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 
 # Update
 sudo apt update
 sudo apt full-upgrade -y --auto-remove
 
 # Install
-sudo apt install -y adb aria2 baobab curl flatpak font-manager git git-flow git-lfs glances gnome-calendar gnome-clocks gnome-contacts gnome-tweaks htop neofetch nodejs p7zip-full steam syncthing ubuntu-drivers-common youtube-dl zsh
+sudo apt install -y adb aria2 baobab curl flatpak font-manager git git-flow git-lfs glances gnome-calendar gnome-clocks gnome-contacts gnome-tweaks htop neofetch p7zip-full steam syncthing ubuntu-drivers-common youtube-dl zsh
 sudo apt purge -y --auto-remove mpv
-curl -fsSL https://get.pnpm.io/install.sh | sh -
 
 # ZSH
 chsh -s $(which zsh)
@@ -34,8 +29,7 @@ echo "# plugins=(zsh-autosuggestions)" >>~/.zshrc
 
 # Third-Party Drivers
 sudo ubuntu-drivers autoinstall
-# sudo apt install -y openrazer-meta
-sudo apt install -y nvidia-cuda-toolkit
+#sudo apt install -y nvidia-cuda-toolkit
 sudo gpasswd -a $USER plugdev
 
 # Snaps
@@ -43,7 +37,6 @@ sudo snap install android-studio --classic
 sudo snap install canonical-livepatch
 sudo snap install core
 sudo snap install core18
-sudo snap install go --classic
 sudo snap install gtk-common-themes
 sudo snap install libreoffice
 sudo snap install snapcraft --classic
@@ -74,18 +67,21 @@ asdf plugin add erlang
 asdf plugin add gradle
 asdf plugin add nodejs
 asdf plugin add pnpm
+asdf plugin add golang
 
 asdf install elixir latest
 asdf install erlang latest
 asdf install gradle latest
 asdf install nodejs latest
 asdf install pnpm latest
+asdf install pnpm golang
 
 asdf global elixir latest
 asdf global erlang latest
 asdf global gradle latest
 asdf global nodejs latest
 asdf global pnpm latest
+asdf global pnpm golang
 
 # Release Upgrade
 sudo do-release-upgrade
