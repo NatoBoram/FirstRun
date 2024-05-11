@@ -26,15 +26,3 @@ SteamOS will not work properly out of the box. There are a few things you need t
 1. `cd ~/Desktop/`
 2. `wget https://raw.githubusercontent.com/NatoBoram/FirstRun/master/SteamOS/FirstRun.sh`
 3. `./FirstRun.sh`
-
-## Future References
-
-### Third-Party Apps
-
-1. Download .tar.gz
-2. `tar zxvf *.tar.gz`
-3. `sudo dpkg -i *.deb && sudo apt-get install -f && sudo apt-get autoremove`
-
-### Change Permission
-
-1. `sudo chown -R steam:steam /home/steam/`

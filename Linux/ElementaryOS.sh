@@ -9,8 +9,6 @@ sudo apt install -y --auto-remove adb apt-transport-https aria2 baobab default-j
 
 # PPA
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
-sudo add-apt-repository -y ppa:gnome3-team/gnome3
-sudo add-apt-repository -y ppa:kritalime/ppa
 
 # Update
 sudo apt update

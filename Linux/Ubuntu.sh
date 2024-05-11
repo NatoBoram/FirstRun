@@ -6,7 +6,6 @@ sudo curl -o /usr/share/keyrings/syncthing-archive-keyring.gpg https://syncthing
 # PPA
 sudo add-apt-repository -y ppa:git-core/ppa
 sudo add-apt-repository -y ppa:graphics-drivers/ppa
-sudo add-apt-repository -y ppa:inkscape.dev/stable
 sudo add-apt-repository -y ppa:lubomir-brindza/nautilus-typeahead
 sudo add-apt-repository -y ppa:qbittorrent-team/qbittorrent-unstable
 echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing candidate" | sudo tee /etc/apt/sources.list.d/syncthing.list
@@ -17,7 +16,6 @@ sudo apt full-upgrade -y --auto-remove
 
 # Install
 sudo apt install -y adb aria2 baobab curl flatpak font-manager git git-flow git-lfs glances gnome-calendar gnome-clocks gnome-contacts gnome-tweaks htop neofetch p7zip-full steam syncthing ubuntu-drivers-common youtube-dl zsh
-sudo apt purge -y --auto-remove mpv
 
 # ZSH
 chsh -s $(which zsh)

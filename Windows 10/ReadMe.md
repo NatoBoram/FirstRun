@@ -27,7 +27,3 @@ wsl --set-default-version 2
 1. Open Command Prompt as Administrator.
 2. Copy all the content of [Scoop](https://raw.githubusercontent.com/NatoBoram/FirstRun/master/Windows%2010/Scoop.bat).
 3. Paste it in Command Prompt.
-
-## Future References
-
-[Upgrade](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Upgrade/ReadMe.md) | [DVD](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/DVD/ReadMe.md) | [USB](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/USB/ReadMe.md) | [Update](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Update/ReadMe.md) | [Refresh](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Refresh/ReadMe.md) | [Bash](https://github.com/NatoBoram/FirstRun/blob/master/Windows%2010/HowTo/Bash/ReadMe.md)
