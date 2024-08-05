@@ -63,24 +63,30 @@ asdf plugin update --all
 
 asdf plugin add elixir
 asdf plugin add erlang
+asdf plugin add golang
 asdf plugin add gradle
 asdf plugin add nodejs
 asdf plugin add pnpm
-asdf plugin add golang
+asdf plugin add rust
 
 asdf install elixir latest
 asdf install erlang latest
+asdf install golang latest
 asdf install gradle latest
 asdf install nodejs latest
 asdf install pnpm latest
-asdf install pnpm golang
+asdf install rust latest
 
 asdf global elixir latest
 asdf global erlang latest
+asdf global golang latest
 asdf global gradle latest
 asdf global nodejs latest
 asdf global pnpm latest
-asdf global pnpm golang
+asdf global rust latest
+
+# Rust
+cargo install onefetch zoxide
 
 # Release Upgrade
 sudo do-release-upgrade
