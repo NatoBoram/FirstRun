@@ -24,7 +24,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 echo ZSH_THEME="powerlevel10k/powerlevel10k" >>~/.zshrc
-echo "# plugins=(zsh-autosuggestions)" >>~/.zshrc
+echo "# plugins=(zoxide zsh-autosuggestions)" >>~/.zshrc
 
 # Third-Party Drivers
 sudo ubuntu-drivers autoinstall
