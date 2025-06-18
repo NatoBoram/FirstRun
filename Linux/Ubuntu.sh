@@ -86,7 +86,8 @@ asdf global pnpm latest
 asdf global rust latest
 
 # Rust
-cargo install onefetch zoxide
+cargo install onefetch zeitfetch zoxide
+asdf reshim
 
 # Release Upgrade
 sudo do-release-upgrade
