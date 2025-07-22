@@ -32,11 +32,6 @@ sudo ubuntu-drivers autoinstall
 sudo gpasswd -a $USER plugdev
 
 # Snaps
-sudo snap install android-studio --classic
-sudo snap install canonical-livepatch
-sudo snap install core
-sudo snap install core18
-sudo snap install gtk-common-themes
 sudo snap install libreoffice
 sudo snap install snapcraft --classic
 sudo snap install vlc
@@ -52,42 +47,90 @@ flatpak install --system https://dl.flathub.org/repo/appstream/org.kde.krita.fla
 flatpak install --system https://dl.flathub.org/repo/appstream/org.prismlauncher.PrismLauncher.flatpakref
 
 # asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.12.0
+mkdir -p ~/.local/bin
+curl https://github.com/asdf-vm/asdf/releases/download/v0.18.0/asdf-v0.18.0-linux-amd64.tar.gz -o ~/Downloads/asdf-v0.18.0-linux-amd64.tar.gz
+tar -xzf ~/Downloads/asdf-v0.18.0-linux-amd64.tar.gz -C ~/.local/bin
+alias asdf='~/.local/bin/asdf'
 # plugins=(asdf)
+
 echo '# ASDF' >>~/.profile
 echo 'PATH="$HOME/.asdf/bin:$PATH"' >>~/.profile
 echo 'PATH="$HOME/.asdf/shims:$PATH"' >>~/.profile
 
-asdf update
+# To update asdf, we must first update Go
+cd
+asdf plugin add golang
+asdf install golang latest
+asdf set golang latest
+
+# Then, obtain Go's version number
+GOLANG_VERSION=$(asdf list golang | grep '*' | sed 's/*//g' | xargs echo)
+
+# Finally, build `asdf`, remove its shim then "install" it
+go install github.com/asdf-vm/asdf/cmd/asdf@latest
+rm -f "$HOME/.asdf/shims/asdf"
+mv "$HOME/.asdf/installs/golang/$GOLANG_VERSION/bin/asdf" "$HOME/.local/bin/asdf"
+whereis asdf
+
+# Now we're free to use it
 asdf plugin update --all
 
+asdf plugin add bun
+asdf plugin add deno
 asdf plugin add elixir
 asdf plugin add erlang
 asdf plugin add golang
 asdf plugin add gradle
+asdf plugin add java
 asdf plugin add nodejs
 asdf plugin add pnpm
+asdf plugin add python
 asdf plugin add rust
 
+asdf install bun latest
+asdf install deno latest
 asdf install elixir latest
 asdf install erlang latest
 asdf install golang latest
-asdf install gradle latest
+asdf install gradle $(asdf list all gradle | grep -v '-' | tail -2 | xargs echo)
+asdf install java $(asdf list all java | grep openjdk | grep -v 'adopt' | tail -1 | xargs echo)
 asdf install nodejs latest
 asdf install pnpm latest
+asdf install python latest
 asdf install rust latest
 
-asdf global elixir latest
-asdf global erlang latest
-asdf global golang latest
-asdf global gradle latest
-asdf global nodejs latest
-asdf global pnpm latest
-asdf global rust latest
+cd
+asdf set erlang bun latest
+asdf set erlang deno latest
+asdf set erlang elixir latest
+asdf set erlang erlang latest
+asdf set erlang golang latest
+asdf set erlang gradle $(asdf list all gradle | grep -v '-' | tail -2 | xargs echo)
+asdf set erlang java $(asdf list all java | grep openjdk | grep -v 'adopt' | tail -1 | xargs echo)
+asdf set erlang nodejs latest
+asdf set erlang pnpm latest
+asdf set erlang python latest
+asdf set erlang rust latest
+
+# Bun
+bun install --global "@biomejs/biome@latest" "@capacitor/cli@latest" "@google/gemini-cli@latest" "@prettier/plugin-xml@latest" "@typescript/native-preview@latest" "eslint@latest" "prettier-plugin-tailwindcss@latest" "sv@latest"
+
+# Go
+go install github.com/cli/cli/v2/cmd/gh@latest
+go install github.com/nektos/act@latest
+go install gitlab.com/gitlab-org/cli/cmd/glab@latest
+go install mvdan.cc/gofumpt@latest
+
+# GitHub
+gh extension install github/gh-codeql
+gh extension install github/gh-copilot
+gh extension install github/gh-models
+gh extension install nektos/gh-act
+gh extension upgrade --all
 
 # Rust
-cargo install onefetch zeitfetch zoxide
-asdf reshim
+cargo install --force onefetch zeitfetch zoxide
+cargo install --force --git https://github.com/microsoft/edit.git edit
 
 # Release Upgrade
 sudo do-release-upgrade
